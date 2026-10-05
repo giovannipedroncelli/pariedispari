@@ -1,18 +1,21 @@
 <html>
-    <head>
-<title>Esempio</title>
-    </head>
-    <body>
-        <p id="risultato"></p>
-    </body>
-    <script>
-        let numero = parseInt(prompt("Inserisci il valore del numero"));
-        if (numero % 2 == 0){
-            risultato = "pari";
-        }
-        else{
-            risultato = "dispari";
-        }
-        document.getElementById("risultato").textContent = "Il numero è " + risultato;
-    </script>
+
+<head>
+    <title>Pari e Dispari</title>
+</head>
+
+<body>
+    <p id="risultato"></p>
+</body>
+<script>
+    let numero = parseInt(prompt("Inserisci il valore del numero"));
+    if (numero % 2 == 0) {
+        risultato = "pari";
+    }
+    else {
+        risultato = "dispari";
+    }
+    document.getElementById("risultato").textContent = "Il numero è " + risultato;
+</script>
+
 </html>
